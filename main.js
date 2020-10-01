@@ -11,12 +11,24 @@ const fadeEffect = setInterval(() => {
   if (!preloader.style.opacity) {
     preloader.style.opacity = 3;
   }
+  if (preloader.style.opaccity == 0.1) {
+    document.getElementById("loader-wrapper").remove();
+  }
   if (preloader.style.opacity > 0) {
     preloader.style.opacity -= 0.1;
-  } else {
+
+    if (preloader.style.opacity == 0) {
+        preloader.style.visibility = "hidden";
+    }
+
+
+  }
+
+  else {
     clearInterval(fadeEffect);
   }
 }, 100);
+
 
 window.addEventListener('load', fadeEffect);
 
