@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">86.51%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">b</span>
+        <span class="key">p</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>1398</td>
+                <td>177</td>
+                <td>0</td>
+                <td>174</td>
+                <td>7</td>
+                <td class="right" data-ratio="1360 1572">86.51%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="src_adapters_guardian_adapter_py.html">src\adapters\guardian_adapter.py</a></td>
+                <td>36</td>
+                <td>9</td>
+                <td>0</td>
+                <td>6</td>
+                <td>1</td>
+                <td class="right" data-ratio="30 42">71.43%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_commands_upload_guardian_command_py.html">src\commands\upload_guardian_command.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 7">71.43%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_command_py.html">src\core\command.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_a_test_command_py.html">src\core\commands\a_test_command.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_database_seed_command_py.html">src\core\commands\database_seed_command.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 6">83.33%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_make_command_command_py.html">src\core\commands\make_command_command.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_make_factory_command_py.html">src\core\commands\make_factory_command.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 14">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_make_migration_command_py.html">src\core\commands\make_migration_command.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_make_model_command_py.html">src\core\commands\make_model_command.py</a></td>
+                <td>30</td>
+                <td>0</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="38 38">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_make_seeder_command_py.html">src\core\commands\make_seeder_command.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 13">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_make_test_command_py.html">src\core\commands\make_test_command.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 13">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_migrate_command_py.html">src\core\commands\migrate_command.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 6">83.33%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_migrate_fresh_command_py.html">src\core\commands\migrate_fresh_command.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 6">83.33%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_migrate_rollback_command_py.html">src\core\commands\migrate_rollback_command.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 6">83.33%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_commands_migrate_up_command_py.html">src\core\commands\migrate_up_command.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 6">83.33%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_console_py.html">src\core\console.py</a></td>
+                <td>84</td>
+                <td>2</td>
+                <td>0</td>
+                <td>26</td>
+                <td>1</td>
+                <td class="right" data-ratio="107 110">97.27%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_column_py.html">src\core\database\column.py</a></td>
+                <td>31</td>
+                <td>0</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="37 37">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_connection_py.html">src\core\database\connection.py</a></td>
+                <td>29</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="25 29">86.21%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_migration_py.html">src\core\database\migration.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_migration_manager_py.html">src\core\database\migration_manager.py</a></td>
+                <td>128</td>
+                <td>16</td>
+                <td>0</td>
+                <td>22</td>
+                <td>2</td>
+                <td class="right" data-ratio="132 150">88.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_query_builder_py.html">src\core\database\query_builder.py</a></td>
+                <td>131</td>
+                <td>0</td>
+                <td>0</td>
+                <td>24</td>
+                <td>0</td>
+                <td class="right" data-ratio="155 155">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_schema_py.html">src\core\database\schema.py</a></td>
+                <td>64</td>
+                <td>1</td>
+                <td>0</td>
+                <td>16</td>
+                <td>2</td>
+                <td class="right" data-ratio="77 80">96.25%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_seeder_py.html">src\core\database\seeder.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 16">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_seeder_manager_py.html">src\core\database\seeder_manager.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_seeders_base_seeder_py.html">src\core\database\seeders\base_seeder.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_database_seeders_model_seeder_py.html">src\core\database\seeders\model_seeder.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_file_generator_py.html">src\core\file_generator.py</a></td>
+                <td>106</td>
+                <td>0</td>
+                <td>0</td>
+                <td>14</td>
+                <td>0</td>
+                <td class="right" data-ratio="120 120">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_logger_py.html">src\core\logger.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 17">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_migrations_2021_06_26_120000_create_models_table_py.html">src\core\migrations\2021_06_26_120000_create_models_table.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_model_factory_py.html">src\core\model\factory.py</a></td>
+                <td>39</td>
+                <td>3</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="40 43">93.02%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_model_model_py.html">src\core\model\model.py</a></td>
+                <td>51</td>
+                <td>0</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="57 57">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_core_utils_utils_py.html">src\core\utils\utils.py</a></td>
+                <td>25</td>
+                <td>6</td>
+                <td>0</td>
+                <td>10</td>
+                <td>1</td>
+                <td class="right" data-ratio="22 35">62.86%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_award_nomination_factory_py.html">src\database\factories\award_nomination_factory.py</a></td>
+                <td>10</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 10">60.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_directorate_factory_py.html">src\database\factories\directorate_factory.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_model_factory_py.html">src\database\factories\model_factory.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_organization_factory_py.html">src\database\factories\organization_factory.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_personnel_factory_py.html">src\database\factories\personnel_factory.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_personnel_position_factory_py.html">src\database\factories\personnel_position_factory.py</a></td>
+                <td>8</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 8">62.50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_personnel_secondary_duty_factory_py.html">src\database\factories\personnel_secondary_duty_factory.py</a></td>
+                <td>8</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 8">62.50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_position_factory_py.html">src\database\factories\position_factory.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 10">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_position_secondary_duty_factory_py.html">src\database\factories\position_secondary_duty_factory.py</a></td>
+                <td>8</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 8">62.50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_rank_factory_py.html">src\database\factories\rank_factory.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_secondary_duty_factory_py.html">src\database\factories\secondary_duty_factory.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_factories_section_factory_py.html">src\database\factories\section_factory.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_02_135518_create_organizations_table_py.html">src\database\migrations\2021_07_02_135518_create_organizations_table.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_02_135544_create_directorates_table_py.html">src\database\migrations\2021_07_02_135544_create_directorates_table.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_02_145545_create_sections_table_py.html">src\database\migrations\2021_07_02_145545_create_sections_table.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_02_145713_create_ranks_table_py.html">src\database\migrations\2021_07_02_145713_create_ranks_table.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_04_084120_create_positions_table_py.html">src\database\migrations\2021_07_04_084120_create_positions_table.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_04_085645_create_personnel_table_py.html">src\database\migrations\2021_07_04_085645_create_personnel_table.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_04_091312_create_secondary_duties_table_py.html">src\database\migrations\2021_07_04_091312_create_secondary_duties_table.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_04_091833_create_position_secondary_duties_table_py.html">src\database\migrations\2021_07_04_091833_create_position_secondary_duties_table.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_04_094547_create_personnel_position_table_py.html">src\database\migrations\2021_07_04_094547_create_personnel_position_table.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_04_095059_create_award_nominations_table_py.html">src\database\migrations\2021_07_04_095059_create_award_nominations_table.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_migrations_2021_07_04_095943_create_personnel_secondary_duties_table_py.html">src\database\migrations\2021_07_04_095943_create_personnel_secondary_duties_table.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_award_nomination_seeder_py.html">src\database\seeders\award_nomination_seeder.py</a></td>
+                <td>12</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 12">66.67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_base_seeder_py.html">src\database\seeders\base_seeder.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 14">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_directorate_seeder_py.html">src\database\seeders\directorate_seeder.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 7">71.43%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_organization_seeder_py.html">src\database\seeders\organization_seeder.py</a></td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 4">75.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_personnel_position_seeder_py.html">src\database\seeders\personnel_position_seeder.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">66.67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_personnel_secondary_duty_seeder_py.html">src\database\seeders\personnel_secondary_duty_seeder.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">66.67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_personnel_seeder_py.html">src\database\seeders\personnel_seeder.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 7">71.43%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_position_secondary_duty_seeder_py.html">src\database\seeders\position_secondary_duty_seeder.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">66.67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_position_seeder_py.html">src\database\seeders\position_seeder.py</a></td>
+                <td>11</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 11">63.64%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_rank_seeder_py.html">src\database\seeders\rank_seeder.py</a></td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 4">75.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_secondary_duty_seeder_py.html">src\database\seeders\secondary_duty_seeder.py</a></td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 4">75.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_database_seeders_sections_seeder_py.html">src\database\seeders\sections_seeder.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 7">71.43%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_dataframe_split_dataframe_split_py.html">src\dataframe_split\dataframe_split.py</a></td>
+                <td>34</td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="24 34">70.59%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_dataframe_split_dataframe_upload_py.html">src\dataframe_split\dataframe_upload.py</a></td>
+                <td>45</td>
+                <td>27</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 55">32.73%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_dataframe_split_upload_to_db_py.html">src\dataframe_split\upload_to_db.py</a></td>
+                <td>26</td>
+                <td>17</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 28">32.14%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_guardian_upload_guardian_manager_py.html">src\guardian\upload_guardian_manager.py</a></td>
+                <td>41</td>
+                <td>30</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 49">22.45%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_award_nomination_py.html">src\models\award_nomination.py</a></td>
+                <td>8</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 8">62.50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_directorate_py.html">src\models\directorate.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_organization_py.html">src\models\organization.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_personnel_py.html">src\models\personnel.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_personnel_position_py.html">src\models\personnel_position.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_personnel_secondary_duty_py.html">src\models\personnel_secondary_duty.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_position_py.html">src\models\position.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_position_secondary_duty_py.html">src\models\position_secondary_duty.py</a></td>
+                <td>8</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 8">62.50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_rank_py.html">src\models\rank.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_secondary_duty_py.html">src\models\secondary_duty.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_models_section_py.html">src\models\section.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.5</a>,
+            created at 2021-09-08 10:18 -0400
+        </p>
+    </div>
+</div>
+</body>
+</html>
