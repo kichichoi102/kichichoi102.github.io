@@ -23,7 +23,7 @@ th {
 }
 
 div {
-    background-color: #D6E5FA;
+    background-color: white;
     margin: 0px 10px 0px 10px;
 }
 
@@ -33,11 +33,13 @@ h1 {
     margin-top: 0%;
     font-family: 'Sacramento', cursive;
     color: #66BFBF;
+    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
+    font-weight: normal;
     color: #66BFBF;
 }
 
@@ -49,6 +51,14 @@ h3 {
 a {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: gray;
+    border-width: 5px;
+    height: 0px;
+    width: 10%;
 }
 
 .top-container {
@@ -79,3 +89,49 @@ a {
     width: 100px;
 }
 
+.bottom-container {
+    background-color: #66BFBF;
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
+}
